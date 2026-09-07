@@ -5,23 +5,25 @@ A modern and responsive weather dashboard built with **React.js, Vite, Tailwind 
 SkyCast allows users to search for any city, view real-time weather conditions, check a 5-day forecast, use their current location, switch between light and dark mode, and access recently searched cities.
 
 ## 🚀 Live Demo
+
 🔗 **GitHub:** https://github.com/MdShahid87/weather-app-react
 
 ## 📌 About The Project
+
 SkyCast is a responsive weather application created as a frontend development portfolio project.
 
 The application consumes weather data from the **Open-Meteo REST API** and displays current weather conditions and a 5-day forecast in a clean and responsive interface.
 
 The project focuses on:
 
-* React component architecture
-* REST API integration
-* Asynchronous JavaScript
-* Browser Geolocation API
-* LocalStorage
-* Responsive UI design
-* Dark mode
-* Error and loading state management
+- React component architecture
+- REST API integration
+- Asynchronous JavaScript
+- Browser Geolocation API
+- LocalStorage
+- Responsive UI design
+- Dark mode
+- Error and loading state management
 
 ---
 
@@ -39,29 +41,29 @@ Use the browser's Geolocation API to retrieve weather information for your curre
 
 Displays:
 
-* City name
-* Country
-* Current temperature
-* Feels-like temperature
-* Weather condition
-* Weather icon
-* Humidity
-* Wind speed
-* Wind direction
-* Atmospheric pressure
-* Visibility
-* Sunrise
-* Sunset
+- City name
+- Country
+- Current temperature
+- Feels-like temperature
+- Weather condition
+- Weather icon
+- Humidity
+- Wind speed
+- Wind direction
+- Atmospheric pressure
+- Visibility
+- Sunrise
+- Sunset
 
 ### 📅 5-Day Forecast
 
 Displays:
 
-* Date
-* Weather condition
-* Weather icon
-* Minimum temperature
-* Maximum temperature
+- Date
+- Weather condition
+- Weather icon
+- Minimum temperature
+- Maximum temperature
 
 ### 🌙 Dark Mode
 
@@ -81,21 +83,21 @@ Displays a loading indicator while weather data is being retrieved.
 
 Handles:
 
-* Invalid city names
-* Empty searches
-* Network errors
-* API errors
-* Location permission errors
-* Unsupported geolocation
+- Invalid city names
+- Empty searches
+- Network errors
+- API errors
+- Location permission errors
+- Unsupported geolocation
 
 ### 📱 Responsive Design
 
 The application works across:
 
-* Desktop
-* Laptop
-* Tablet
-* Mobile
+- Desktop
+- Laptop
+- Tablet
+- Mobile
 
 ---
 
@@ -131,15 +133,15 @@ Used to convert a city name into latitude and longitude.
 
 Used to retrieve:
 
-* Current weather
-* Temperature
-* Humidity
-* Wind
-* Pressure
-* Visibility
-* Sunrise
-* Sunset
-* 5-day forecast
+- Current weather
+- Temperature
+- Humidity
+- Wind
+- Pressure
+- Visibility
+- Sunrise
+- Sunset
+- 5-day forecast
 
 No API key is required for the current Open-Meteo implementation.
 
@@ -266,21 +268,21 @@ The interface is designed for different screen sizes.
 
 ### Desktop
 
-* Full weather dashboard
-* Multi-column statistics
-* Large weather cards
+- Full weather dashboard
+- Multi-column statistics
+- Large weather cards
 
 ### Tablet
 
-* Responsive grid layout
-* Optimized spacing
+- Responsive grid layout
+- Optimized spacing
 
 ### Mobile
 
-* Stacked layout
-* Mobile-friendly search
-* Responsive forecast cards
-* Touch-friendly buttons
+- Stacked layout
+- Mobile-friendly search
+- Responsive forecast cards
+- Touch-friendly buttons
 
 ---
 
@@ -288,22 +290,22 @@ The interface is designed for different screen sizes.
 
 This project helped me practice:
 
-* React functional components
-* React Hooks
-* `useState`
-* `useEffect`
-* `useCallback`
-* Custom React Hooks
-* REST API integration
-* Axios
-* Async/Await
-* Error handling
-* Browser Geolocation API
-* LocalStorage
-* Tailwind CSS
-* Responsive design
-* Component-based architecture
-* Git and GitHub
+- React functional components
+- React Hooks
+- `useState`
+- `useEffect`
+- `useCallback`
+- Custom React Hooks
+- REST API integration
+- Axios
+- Async/Await
+- Error handling
+- Browser Geolocation API
+- LocalStorage
+- Tailwind CSS
+- Responsive design
+- Component-based architecture
+- Git and GitHub
 
 ---
 
@@ -311,17 +313,17 @@ This project helped me practice:
 
 Possible future features:
 
-* [ ] Hourly weather forecast
-* [ ] Weather charts
-* [ ] Air quality information
-* [ ] Favorite cities
-* [ ] Temperature unit conversion
-* [ ] Weather alerts
-* [ ] More detailed weather information
-* [ ] Animated weather backgrounds
-* [ ] PWA support
-* [ ] Improved accessibility
-* [ ] Weather history
+- [ ] Hourly weather forecast
+- [ ] Weather charts
+- [ ] Air quality information
+- [ ] Favorite cities
+- [ ] Temperature unit conversion
+- [ ] Weather alerts
+- [ ] More detailed weather information
+- [ ] Animated weather backgrounds
+- [ ] PWA support
+- [ ] Improved accessibility
+- [ ] Weather history
 
 ---
 
@@ -333,16 +335,16 @@ Frontend Developer
 
 ### Skills
 
-* HTML5
-* CSS3
-* JavaScript
-* React.js
-* Tailwind CSS
-* Redux Toolkit
-* Bootstrap
-* Material UI
-* Git
-* GitHub
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+- Tailwind CSS
+- Redux Toolkit
+- Bootstrap
+- Material UI
+- Git
+- GitHub
 
 ---
 

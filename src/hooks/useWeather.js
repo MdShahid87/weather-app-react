@@ -1,9 +1,9 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback } from "react";
 import {
   getWeatherAndForecastByCity,
   getWeatherAndForecastByCoordinates,
-} from '../services/weatherApi';
-import { addRecentSearch } from '../utils/weatherUtils';
+} from "../services/weatherApi";
+import { addRecentSearch } from "../utils/weatherUtils";
 
 export function useWeather() {
   const [weather, setWeather] = useState(null);
@@ -14,7 +14,7 @@ export function useWeather() {
   const fetchWeatherByCity = useCallback(async (city) => {
     const trimmed = city.trim();
     if (!trimmed) {
-      setError('Please enter a city name.');
+      setError("Please enter a city name.");
       return;
     }
 
@@ -39,7 +39,7 @@ export function useWeather() {
 
   const fetchWeatherByLocation = useCallback(async () => {
     if (!navigator.geolocation) {
-      setError('Geolocation is not supported by your browser.');
+      setError("Geolocation is not supported by your browser.");
       return;
     }
 
@@ -70,15 +70,15 @@ export function useWeather() {
         setLoading(false);
         if (geoError.code === geoError.PERMISSION_DENIED) {
           setError(
-            'Location permission denied. Please enable location access or search manually.'
+            "Location permission denied. Please enable location access or search manually.",
           );
         } else if (geoError.code === geoError.POSITION_UNAVAILABLE) {
-          setError('Location information is unavailable. Please try again.');
+          setError("Location information is unavailable. Please try again.");
         } else {
-          setError('Unable to retrieve your location. Please try again.');
+          setError("Unable to retrieve your location. Please try again.");
         }
       },
-      { timeout: 10000, enableHighAccuracy: false }
+      { timeout: 10000, enableHighAccuracy: false },
     );
   }, []);
 
